@@ -41,9 +41,29 @@ section {
 
 .float-image {
     float: left;
-    /* margin-right: 1rem; */
-    width: 150px; /* Adjusted width */
+    margin-right: 1rem;
+    width: 100px; /* Adjusted width */
     height: auto; /* Maintain aspect ratio */
+}
+
+.research-header {
+    display: flex;
+    align-items: center;
+}
+
+.research-image {
+    margin-left: 1rem;
+    width: 100px; /* Adjusted width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.publications-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.publications-list li {
+    margin-bottom: 1rem; /* Add space between list items */
 }
 
 footer {
