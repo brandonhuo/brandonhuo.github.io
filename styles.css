@@ -37,6 +37,17 @@ main {
 
 section {
     margin-bottom: 2rem;
+    position: relative;
+}
+
+.section-image {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the area */
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 1rem;
 }
 
 footer {
