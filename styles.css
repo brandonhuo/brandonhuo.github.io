@@ -41,8 +41,8 @@ section {
 
 .float-image {
     float: left;
-    margin-right: 1rem;
-    width: 150px; /* Set the desired width */
+    /* margin-right: 1rem; */
+    width: 150px; /* Adjusted width */
     height: auto; /* Maintain aspect ratio */
 }
 
