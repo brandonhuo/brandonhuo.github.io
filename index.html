@@ -1,71 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Qingze Huo</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>Qingze Huo</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work Experience</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><a href="#publications">Publications</a></li>
-                    <li><a href="#contact">Contact</a></li>
+<head>
+    <title>Qingze Huo - Professional website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Tooplate">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Qingze Huo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link smoothScroll">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#research" class="nav-link smoothScroll">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#publications" class="nav-link smoothScroll">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="about">
-                <h2>About Me</h2>
-                <img src="images/headshot.jpg" alt="Qingze Huo" class="float-image">
-                <p>Machine Learning Researcher | ADAS Software Engineer | Ph.D. in Mechanical Engineering</p>
-                <p>Passionate about advancing autonomous systems </p>
-            <section id="work">
-                <h2>Work Experience</h2>
-                <img src="images/Canoo-LDV-28.jpg.avif" alt="Work Experience Image" class="float-image">
-                <p>At Canoo, my role as an ADAS Software Engineer involves delivering advanced control systems and sensor fusion techniques to enhance vehicle safety. 
-                In this role, I have strengthened my programming skills in C++ and Python and gained hands-on experience in software development within the automotive industry:
-                Design, test, optimize and deploy a real-time Joint probabilistic data association-based multi-sensor multi-object tracking and data fusion algorithm for ADAS system
-                Develop simulation/replay-based pipelines for tracker evaluation and tuning, accelerating the software development lifecycle and ensuring optimal performance
-                Collaborate with cross-functional teams to integrate sensor fusion solutions, ensuring reliability through SIL, HIL, and real-world testing</p>
-            </section>
-            <section id="research">
-                <h2>Research</h2>
-                <img src="images/lisc_logo_new.png" alt="lisc logo" class="float-image">
-                <ul>
-                    <li>Created a Machine Learning model for multi-modal pedestrian trajectory prediction using visual-sensing data</li>
-                    <li>Led a team for developing a real-time perception-feedback UAV system for human-robot interaction in the wild</li>
-                    <li>Constructed a visual-sensing-based fast and accurate action detection framework for automatically recognizing distinct actions from untrimmed action sequence</li>
-                    <li>Collaborated with an interdisciplinary team from CMU and GaTech for the stochastic distributed optimal dual control project</li>
-                </ul>
-            </section>
-            <section id="publications">
-                <h2>Publications</h2>
-                <ul class="publications-list">
-                    <li>X Yu, Z Xie, Y Yu, J Lee, A Vazquez-Guardado, H Luan, J Ruban, X Ning, Q Huo, ... "Skin-integrated wireless haptic interfaces for virtual and augmented reality." <em>Nature</em> 575 (7783), 473-479, 2019. Cited by 852.</li>
-                    <li>HU Chung, BH Kim, JY Lee, J Lee, Z Xie, EM Ibler, KH Lee, A Banks, Q Huo, ... "Binodal, wireless epidermal electronic systems with in-sensor analytics for neonatal intensive care." <em>Science</em> 363 (6430), eaau0780, 2019. Cited by 701.</li>
-                    <li>BH Kim, J Lee, SM Won, Z Xie, JK Chang, Y Yu, YK Cho, H Jang, Q Huo, ... "Three-dimensional silicon electronic systems fabricated by compressive buckling process." <em>ACS nano</em> 12 (5), 4164-4171, 2018. Cited by 51.</li>
-                    <li>Z Xie, B Ji, Q Huo. "Mechanics design of stretchable near field communication antenna with serpentine wires." <em>Journal of Applied Mechanics</em> 85 (4), 045001, 2018. Cited by 26.</li>
-                    <li>I Jung, Z Xie, Q Huo, J Kim, J Lee, B Ji, S Xu. "In vitro protocol for validating interface pressure sensors for therapeutic compression garments: Importance of sphygmomanometer placement and initial cuff diameter." <em>Veins and Lymphatics</em> 7 (1), 2018. Cited by 4.</li>
-                    <li>J Dong, Q Huo, S Ferrari. "A holistic approach for role inference and action anticipation in human teams." <em>ACM Transactions on Intelligent Systems and Technology (TIST)</em> 13 (6), 1-24, 2022. Cited by 3.</li>
-                    <li>Q Huo, Y Shi, C Liu, V Tarokh, S Ferrari. "Online Action Change Detection for Automatic Vision-based Ground Control of Aircraft." <em>AIAA SCITECH 2022 Forum</em>, 2031, 2022. Cited by 1.</li>
-                    <li>Q Huo, S Ferrari. "Pedestrian Trajectory Prediction under Abrupt Changing Scenarios." <em>IEEE Transactions on Intelligent Transportation Systems</em>, submitted.</li>
-                    <li>Q Huo, S Ferrari, et al. "Robot-embodied Real-time Human-Robot Interaction." <em>IEEE Robotics and Automation Magazine</em>, submitted.</li>
-                    <!-- Add more publications as needed -->
-                </ul>
-            </section>
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>Contact information and form.</p>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2025 Qingze Huo. All rights reserved.</p>
-        </footer>
-    </body>
+                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                    <a href="#" class="custom-btn btn" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto col-lg-5 col-md-5 col-10">
+                    <img src="images/headshot.jpg" class="img-fluid" alt="Qingze Huo">
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                    <div class="hero-text">
+                        <h1 class="hero-title">👋 Qingze Huo</h1>
+                        <a href="mailto:huoqingze@hotmail.com" class="email-link">huoqingze@hotmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3 class="mb-4">About Me</h3>
+                    <p>Machine Learning Researcher | ADAS Software Engineer | Ph.D. in Mechanical Engineering</p>
+                    <p>Passionate about advancing autonomous systems, localization technologies, and real-time data processing.</p>
+                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+                        <li><strong>Full Name :</strong> Qingze Huo</li>
+                        <li><strong>Email :</strong> huoqingze@hotmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/true-agency.jpg" class="about-image img-fluid" alt="Qingze Huo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK EXPERIENCE -->
+    <section class="about section-padding" id="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <h3 class="mb-4">Work Experience</h3>
+                    <!-- <img src="images/Canoo-LDV-28.jpg.avif" alt="Work Experience Image" class="float-image"> -->
+                    <p>At Canoo, my role as an ADAS Software Engineer involves delivering advanced control systems and sensor fusion techniques to enhance vehicle safety. In this role, I have strengthened my programming skills in C++ and Python and gained hands-on experience in software development within the automotive industry:</p>
+                    <ul>
+                        <li>Design, test, optimize and deploy a real-time Joint probabilistic data association-based multi-sensor multi-object tracking and data fusion algorithm for ADAS system</li>
+                        <li>Develop simulation/replay-based pipelines for tracker evaluation and tuning, accelerating the software development lifecycle and ensuring optimal performance</li>
+                        <li>Collaborate with cross-functional teams to integrate sensor fusion solutions, ensuring reliability through SIL, HIL, and real-world testing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="about section-padding" id="research">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <h3 class="mb-4">Research</h3>
+                    <!-- <img src="images/lisc_logo_new.png" alt="Research Image" class="float-image"> -->
+                    <p> Previously, as a Machine Learning Researcher in Robotics at Cornell University, I developed a multi-modal pedestrian trajectory prediction model and a perception-feedback UAV system for dynamic human-robot interactions.
+                        These projects, which resulted in multiple papers, have enhanced my expertise in perception, probabilistic reasoning, and human-robot interaction.</p>
+                    <ul>
+                        <li>Created a Machine Learning model for multi-modal pedestrian trajectory prediction using visual-sensing data</li>
+                        <li>Led a team for developing a real-time perception-feedback UAV system for human-robot interaction in the wild</li>
+                        <li>Constructed a visual-sensing-based fast and accurate action detection framework for automatically recognizing distinct actions from untrimmed action sequence</li>
+                        <li>Collaborated with an interdisciplinary team from CMU and GaTech for the stochastic distributed optimal dual control project</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="about section-padding" id="publications">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <h3 class="mb-4">Publications</h3>
+                    <ul class="publications-list">
+                        <li>X Yu, Z Xie, Y Yu, J Lee, A Vazquez-Guardado, H Luan, J Ruban, X Ning, Q Huo, ... "Skin-integrated wireless haptic interfaces for virtual and augmented reality." <em>Nature</em> 575 (7783), 473-479, 2019. Cited by 852.</li>
+                        <li>HU Chung, BH Kim, JY Lee, J Lee, Z Xie, EM Ibler, KH Lee, A Banks, Q Huo, ... "Binodal, wireless epidermal electronic systems with in-sensor analytics for neonatal intensive care." <em>Science</em> 363 (6430), eaau0780, 2019. Cited by 701.</li>
+                        <li>BH Kim, J Lee, SM Won, Z Xie, JK Chang, Y Yu, YK Cho, H Jang, Q Huo, ... "Three-dimensional silicon electronic systems fabricated by compressive buckling process." <em>ACS nano</em> 12 (5), 4164-4171, 2018. Cited by 51.</li>
+                        <li>Z Xie, B Ji, Q Huo. "Mechanics design of stretchable near field communication antenna with serpentine wires." <em>Journal of Applied Mechanics</em> 85 (4), 045001, 2018. Cited by 26.</li>
+                        <li>I Jung, Z Xie, Q Huo, J Kim, J Lee, B Ji, S Xu. "In vitro protocol for validating interface pressure sensors for therapeutic compression garments: Importance of sphygmomanometer placement and initial cuff diameter." <em>Veins and Lymphatics</em> 7 (1), 2018. Cited by 4.</li>
+                        <li>J Dong, Q Huo, S Ferrari. "A holistic approach for role inference and action anticipation in human teams." <em>ACM Transactions on Intelligent Systems and Technology (TIST)</em> 13 (6), 1-24, 2022. Cited by 3.</li>
+                        <li>Q Huo, Y Shi, C Liu, V Tarokh, S Ferrari. "Online Action Change Detection for Automatic Vision-based Ground Control of Aircraft." <em>AIAA SCITECH 2022 Forum</em>, 2031, 2022. Cited by 1.</li>
+                        <li>Q Huo, S Ferrari. "Pedestrian Trajectory Prediction under Abrupt Changing Scenarios." <em>IEEE Transactions on Intelligent Transportation Systems</em>, submitted.</li>
+                        <li>Q Huo, S Ferrari, et al. "Robot-embodied Real-time Human-Robot Interaction." <em>IEEE Robotics and Automation Magazine</em>, submitted.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section-padding pt-0" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <form action="#" method="get" class="contact-form webform" role="form">
+                        <div class="form-group d-flex flex-column-reverse">
+                            <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+                            <label for="cf-name" class="webform-label">Full Name</label>
+                        </div>
+                        <div class="form-group d-flex flex-column-reverse">
+                            <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+                            <label for="cf-email" class="webform-label">Your Email</label>
+                        </div>
+                        <div class="form-group d-flex flex-column-reverse">
+                            <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+                            <label for="cf-message" class="webform-label">Message</label>
+                        </div>
+                        <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+                    </form>
+                </div>
+                <div class="mx-auto col-lg-4 col-md-6 col-12">
+                    <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
+                    <!-- <p class="mb-1">010-020-0340</p> -->
+                    <p>
+                        <a href="mailto:huoqingze@hotmail.com">
+                            huoqingze@hotmail.com
+                            <i class="fas fa-arrow-right custom-icon"></i>
+                        </a>
+                    </p>
+                    <ul class="social-links mt-2">
+                        <li><a href="https://www.linkedin.com/in/qingze-huo" rel="noopener" class="fab fa-linkedin"></a></li>
+                        <li><a href="https://github.com/brandonhuo" rel="noopener" class="fab fa-github"></a></li>        
+                    </ul>
+                    <p class="copyright-text mt-5 pt-3">Copyright &copy; 2025 Qingze Huo</p>
+                    <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
 </html>
